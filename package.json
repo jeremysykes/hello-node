@@ -1,0 +1,22 @@
+{
+  "name": "hello-node-rest",
+  "version": "1.0.0",
+  "description": "A simple node.js restful api.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeremysykes/hello-node.git"
+  },
+  "author": "Jeremy Sykes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeremysykes/hello-node/issues"
+  },
+  "homepage": "https://github.com/jeremysykes/hello-node#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
