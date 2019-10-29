@@ -17,6 +17,7 @@ mongoose.connect(
         useUnifiedTopology: true
     }
 );
+mongoose.Promise = global.Promise;
 
 // Morgan
 app.use(morgan('dev'));
